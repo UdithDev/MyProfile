@@ -88,6 +88,7 @@
             font-family: "Noto Sans HK";
             font-style: normal;
         }
+
         #HD_1 {
             font-size: 18px;
             font-weight: 700;
@@ -96,6 +97,7 @@
             color: #5E5959;
             opacity: 5.8;
         }
+
         #HD_2 {
             font-size: 35px;
             font-weight: 700;
@@ -113,20 +115,32 @@
             letter-spacing: 0.01em;
             color: #5E5959;
         }
+
+
         #my_work {
+            font-family: "Noto Sans HK";
+            font-style: normal;
             font-weight: 700;
             font-size: 32px;
             line-height: 28px;
             color: black;
 
-            align-items: center;
             text-align: center;
 
-            background: rgba(0,0,0,0.48);
+            background: rgba(0, 0, 0, 0.48);
             background-blend-mode: color;
             border-radius: 10px;
             padding: 10px;
+
+            position: absolute;
+            top: 600px;
+            left: 100px;
         }
+
+        #my_work:hover {
+            cursor: pointer;
+        }
+
         /*Home Description End*/
 
 
@@ -147,7 +161,6 @@
         /* main > section:nth-child(1) > div:nth-child(2)>img{
 
          }*/
-
 
 
     </style>
@@ -172,22 +185,30 @@
         <div>
             <h5 id="HD_1">HELLO, MY Name is</h5>
             <h1 id="HD_2">UDITH DEV WEERAKKODY</h1>
-            <h6 id="HD_3">I am full stack developer, web designer and UI/UX designer</h6>
+            <h6 class="des" id="HD_3"><span>I am full stack developer, web designer and UI/UX designer</span></h6>
 
-            <img alt="Github Image" hspace="5" src="/Second/MyProfile/assets/images/github.png" width="40">
-            <img alt="Linkedin Image " hspace="5" src="/Second/MyProfile/assets/images/linkedin.png" width="40">
-            <img alt="Facebook Image " hspace="5" src="/Second/MyProfile/assets/images/facebook.png" width="40">
-            <img alt="Instagram Image" hspace="5" src="/Second/MyProfile/assets/images/instagram.png" width="40">
-            <img alt="Twitter Image" hspace="5" src="/Second/MyProfile/assets/images/twitter.png" width="40"><br>
+            <img alt="Github Image" class="social_media" hspace="5" src="/Second/MyProfile/assets/images/github.png"
+                 width="40">
+            <img alt="Linkedin Image " class="social_media" hspace="5"
+                 src="/Second/MyProfile/assets/images/linkedin.png" width="40">
+            <img alt="Facebook Image " class="social_media" hspace="5"
+                 src="/Second/MyProfile/assets/images/facebook.png" width="40">
+            <img alt="Instagram Image" class="social_media" hspace="5"
+                 src="/Second/MyProfile/assets/images/instagram.png" width="40">
+            <img alt="Twitter Image" class="social_media" hspace="5" src="/Second/MyProfile/assets/images/twitter.png"
+                 width="40"><br>
 
             <br>
             <br><br>
-            <button id="my_work">MY WORK</button>
+
+            <!--            <button>MY WORK</button>-->
         </div>
         <div>
             <img alt="Profile Picture" id="profile_picture"
                  src="/Second/MyProfile/assets/images/DS626373-removebg-preview%20(1).png" width="250">
         </div>
+        <button id="my_work">MY WORK</button>
+
 
         <!--<hr>-->
     </section>
@@ -329,6 +350,97 @@
     <img alt="whatsaplogo" src="/Second/MyProfile/assets/images/whatsapp.png" width="25px"><a href="tel:+94785648605">+94
     78 564 8605</a>
 </footer>
+<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script>
+
+    /* let h5Content = $("#HD_1").text();
+     let count = 0
+     let loaded = false;
+
+     if (loaded == false){
+         setInterval(animateText,300);
+     } else {
+         console.log(loaded)
+     }
+
+     function animateText() {
+         let content = h5Content.substring(0, count);
+         $("#HD_1").text(content);
+         count++;
+         if (count == h5Content.size) {
+             count = 0;
+         }
+         loaded = true;
+     }
+
+ */
+
+    // let h1Content = $("#HD_2").text();
+    // let count1 = 0;
+    //
+    // setInterval(animateText1, 300);
+    //
+    // function animateText1() {
+    //     let content = h1Content.substring(0, count1);
+    //     $("#HD_2").text(content);
+    //     count1++;
+    //     if (count1 == h1Content.size) {
+    //         count1 = 0;
+    //     }
+    //
+    // }
+
+    let h5Content = $("#HD_1").text();
+    let count = 0;
+    let loaded = false;
+    let h1Content = $("#HD_2").text();
+    let count2 = 0;
+    let h6Content = $("#HD_3").text();
+    let count3 = 0;
+
+
+    function animateText() {
+        let content = h5Content.substring(0, count);
+        $("#HD_1").text(content);
+        count++;
+        if (count == h5Content.size) {
+            count = 0;
+        }
+        if (count > h5Content.length) {
+            loaded = true;
+        }
+
+        let content2 = h1Content.substring(0, count2);
+        $("#HD_2").text(content2);
+        if (loaded) {
+            count2++;
+            if (count2 == h1Content.size) {
+                count2 = 0;
+            }
+        }
+        console.log(loaded)
+
+        if (count2 > h1Content.length) {
+            loaded = true;
+        }
+        let content3 = h6Content.substring(0, count3);
+        $("#HD_3").text(content3);
+        if (loaded) {
+            count3++;
+            if (count3 == h6Content.size) {
+                count3 = 0;
+            }
+        }
+        console.log(loaded)
+
+    }
+
+    if (loaded != true) {
+        setInterval(animateText, 300);
+    }
+
+
+</script>
 </body>
 </html>
 
