@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <style>
         header {
             /*    border: 1px solid black;*/
@@ -158,9 +161,42 @@
             bottom: 200px;
         }
 
-        /* main > section:nth-child(1) > div:nth-child(2)>img{
+        /*About Section Start*/
+        main > section:nth-child(2) {
 
-         }*/
+            position: relative;
+        }
+
+        #about {
+            position: absolute;
+            width: 164px;
+            height: 44px;
+            left: 638px;
+            top: 10px;
+
+            font-family: Jua;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 44px;
+
+            text-transform: uppercase;
+            color: #1778F2;
+            stroke: #0C0C0C;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+        }
+        main > section:nth-child(2)>pre{
+            position: relative;
+            width: 551px;
+            height: 450px;
+            left: 48px;
+            top: 97px;
+
+            background: radial-gradient(50% 50% at 50% 50%,
+            rgba(96,132,166,0.63) 99.99%,
+            rgba(96,132,166,0) 100%);
+        }
+        main > section:nth-child(2)>pre::first-line
 
 
     </style>
@@ -353,42 +389,6 @@
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 <script>
 
-    /* let h5Content = $("#HD_1").text();
-     let count = 0
-     let loaded = false;
-
-     if (loaded == false){
-         setInterval(animateText,300);
-     } else {
-         console.log(loaded)
-     }
-
-     function animateText() {
-         let content = h5Content.substring(0, count);
-         $("#HD_1").text(content);
-         count++;
-         if (count == h5Content.size) {
-             count = 0;
-         }
-         loaded = true;
-     }
-
- */
-
-    // let h1Content = $("#HD_2").text();
-    // let count1 = 0;
-    //
-    // setInterval(animateText1, 300);
-    //
-    // function animateText1() {
-    //     let content = h1Content.substring(0, count1);
-    //     $("#HD_2").text(content);
-    //     count1++;
-    //     if (count1 == h1Content.size) {
-    //         count1 = 0;
-    //     }
-    //
-    // }
 
     let h5Content = $("#HD_1").text();
     let count = 0;
