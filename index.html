@@ -185,7 +185,8 @@
             stroke: #0C0C0C;
             text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
         }
-        main > section:nth-child(2)>pre{
+
+        main > section:nth-child(2) > pre {
             position: relative;
             width: 551px;
             height: 450px;
@@ -193,10 +194,95 @@
             top: 97px;
 
             background: radial-gradient(50% 50% at 50% 50%,
-            rgba(96,132,166,0.63) 99.99%,
-            rgba(96,132,166,0) 100%);
+            rgba(96, 132, 166, 0.63) 99.99%,
+            rgba(96, 132, 166, 0) 100%);
         }
-        main > section:nth-child(2)>pre::first-line
+
+        main > section:nth-child(2) > pre > b {
+            position: absolute;
+            width: 81px;
+            height: 30px;
+            left: 220px;
+            top: 20px;
+            font-family: "Noto Sans HK";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            text-decoration-line: underline;
+
+            text-transform: uppercase;
+
+            color: #2F2B2B;
+        }
+
+        span.pre_1 {
+            position: absolute;
+            width: 441px;
+            height: 78px;
+            left: 25px;
+            top: 65px;
+
+            font-family: "Noto Sans HK";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 26px;
+            text-align: center;
+
+            color: black;
+        }
+
+        span.pre_2 {
+            position: absolute;
+            width: 504px;
+            height: 52px;
+            left: 20px;
+            top: 192px;
+
+            font-family: 'Noto Sans HK';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 26px;
+            text-align: center;
+
+            color: #000000;
+
+        }
+
+        span.pre_3 {
+            position: absolute;
+            width: 443px;
+            height: 78px;
+            left: 40px;
+            top: 275px;
+
+            font-family: 'Noto Sans HK';
+            font-style: normal;
+            font-weight: 350;
+            font-size: 15px;
+            line-height: 26px;
+            text-align: center;
+
+            color: #000000;
+        }
+
+        main > section:nth-child(2) > pre > button {
+            position: absolute;
+            width: 175px;
+            height: 32px;
+            left: 190px;
+            top: 380px;
+
+            font-family: 'Noto Sans HK';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 32px;
+
+            color: #0E0F0F;
+            background: rgba(153,165,152,0.79);
+        }
 
 
     </style>
@@ -256,16 +342,17 @@
              width="300">
 
         <pre>                            <b>HOWDY!</b> <br>
+            <span class="pre_1">
             I am currently learning more about software
-            development. Since 2022, I have been studying
-        at IJSE to improve my skills in software development.
+                development. Since 2022, I have been studying
+              at IJSE to improve my skills in software development.</span>
 
-        I also have knowledge of web development, UI/UX designing,
-             database management and frameworks.
+        <span class="pre_2">I also have knowledge of web development, UI/UX designing,
+             database management and frameworks.</span>
 
-        Contact me to get the service you need in these areas
+       <span class="pre_3"> Contact me to get the service you need in these areas
          creatively, efficiently and clearly. Also,if you want to
-                   receive services contact me.
+                   receive services contact me.</span>
 
                     <button>DOWNLOAD CV</button>
                  </pre>
