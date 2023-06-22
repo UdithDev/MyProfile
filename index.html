@@ -187,7 +187,7 @@
             text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
         }
 
-        main > section:nth-child(2) > pre {
+        .pre {
             position: relative;
             width: 551px;
             height: 450px;
@@ -282,8 +282,8 @@
             line-height: 32px;
 
             color: #2F2B2B;
-            background:#5B5858;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+            background: #5B5858;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         #DI {
@@ -296,56 +296,102 @@
 
             opacity: 70%;
         }
+
         /*School and institute*/
-        #Tissa{
+        #Tissa {
             position: absolute;
-            width:124px;
+            width: 124px;
             height: 124px;
             left: 133px;
             top: 620px;
         }
-        #POW{
+
+        #POW {
             position: absolute;
             width: 124px;
             height: 142px;
             left: 133px;
             top: 776px;
         }
-        #MO{
+
+        #MO {
             position: absolute;
             width: 130px;
             height: 130px;
             left: 770px;
             top: 620px;
         }
-        #IJSE{
+
+        #IJSE {
             position: absolute;
             width: 130px;
             height: 130px;
             left: 770px;
             top: 776px;
         }
-        #line_3{
-            position: absolute;
-            width: 245px;
-            height:0px;
-            left: 250px;
-            top: 760px;
 
-            border: 4px solid #1B9B84;
-            transform: rotate(90deg);
-        }
-        #line_4{
+        #line_3 {
             position: absolute;
             width: 245px;
             height: 0px;
-            left: 880px;
+            left: 225px;
             top: 760px;
 
             border: 4px solid #1B9B84;
             transform: rotate(90deg);
         }
 
+        #line_4 {
+            position: absolute;
+            width: 245px;
+            height: 0px;
+            left: 855px;
+            top: 760px;
+
+            border: 4px solid #1B9B84;
+            transform: rotate(90deg);
+        }
+
+        #P_1 {
+            position: absolute;
+            left: 411px;
+            top: 633px;
+            color: #2F2B2B;
+            font-size: 15px;
+            font-family: "Noto Sans HK";
+            line-height: 25px;
+        }
+
+        #P_2 {
+            position: absolute;
+            left: 411px;
+            top: 800px;
+            color: #2F2B2B;
+            font-size: 15px;
+            font-family: "Noto Sans HK";
+            line-height: 20px;
+        }
+
+        #P_3 {
+            position: absolute;
+            top: 633px;
+            left: 1040px;
+            color: #2F2B2B;
+            font-size: 15px;
+            font-family: "Noto Sans HK";
+            line-height: 20px;
+        }
+
+        #P_4 {
+            position: absolute;
+            top: 800px;
+            left: 1040px;
+            font-size: 15px;
+            font-family: "Noto Sans HK";
+            line-height: 20px;
+        }
+
+        /*About section End*/
 
 
     </style>
@@ -404,7 +450,7 @@
              src="/Second/MyProfile/assets/images/83b8165c-d311-4313-942a-1e42e76df2f1.webp"
              width="300">
 
-        <pre>                            <b>HOWDY!</b> <br>
+        <pre class="pre">                            <b>HOWDY!</b> <br>
             <span class="pre_1">
             I am currently learning more about software
                 development. Since 2022, I have been studying
@@ -420,19 +466,39 @@
                     <button>DOWNLOAD CV</button>
                  </pre>
 
-        <img id="Tissa" alt="Tissa Logo" src="/Second/MyProfile/assets/images/download.jpg" >
+        <img alt="Tissa Logo" id="Tissa" src="/Second/MyProfile/assets/images/download.jpg">
         <div id="line_3"></div>
-        <p>I studied from grade 1 to grade 7 at Tissa College. (2006-2012) </p>
+        <p>
+        <pre id="P_1">
+        I studied from grade 1 to
+        grade 7 at Tissa College.
+        (2006-2012)</pre>
+        </p>
 
-        <img id="POW" alt="pwc logo" src="/Second/MyProfile/assets/images/download%20(1).jpg" width="100">
-        <p>I continued my education at Prince of Wales College from grade 8 through Advance Level. (2012-2019) </p>
+        <img alt="pwc logo" id="POW" src="/Second/MyProfile/assets/images/download%20(1).jpg">
+        <p>
+        <pre id="P_2">
+        I continued my education at
+        Prince of Wales College from
+        grade 8 through Advance Level.
+            (2012-2019)</pre>
+        </p>
 
-        <img id="MO" alt="Music oven logo" src="/Second/MyProfile/assets/images/download.png" width="100">
+        <img alt="Music oven logo" id="MO" src="/Second/MyProfile/assets/images/download.png">
         <div id="line_4"></div>
-        <p>I completed a diploma in sound & music technology. Music oven Institute. (2019-2021)</p>
+        <p>
+        <pre id="P_3">
+        I completed a diploma in
+        sound & music technology.
+        Music oven Institute.
+        (2019-2021)</p></pre>
 
-        <img id="IJSE" alt="IJSE logo" src="/Second/MyProfile/assets/images/download%20(1).png" width="100">
-        <p>I have been studying in ijse since 2022</p>
+        <img alt="IJSE logo" id="IJSE" src="/Second/MyProfile/assets/images/download%20(1).png">
+        <p>
+        <pre id="P_4">
+        I have been studying in ijse
+        since 2022 </pre>
+        </p>
         <hr>
     </section>
 
