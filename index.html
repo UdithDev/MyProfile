@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
+
     <style>
         header {
             /*    border: 1px solid black;*/
@@ -27,7 +31,7 @@
 
         header > nav > ul > li {
             display: inline-block;
-            font-family: 'Noto Sans HK';
+            font-family: 'Noto Sans HK', serif;
             font-style: normal;
             font-weight: 700;
             padding: 10px;
@@ -293,7 +297,7 @@
             height: 608px;
             left: 600px;
             top: 98px;
-            right: 0px;
+            right: 0;
             opacity: 80%;
         }
 
@@ -375,9 +379,10 @@
         #experience_h1 {
             text-align: center;
             font-weight: 300;
-            color: #777;
+            color: rgba(94, 89, 89, 1);
             position: relative;
             top: 50px;
+            font-family: 'Belanosima', sans-serif;
         }
 
         .experience_container {
@@ -395,9 +400,9 @@
             top: 0;
             left: 50%;
             margin-left: -1px;
-            width: 2px;
+            width: 3px;
             height: 100%;
-            background: #ccd1d9;
+            background: rgba(27, 155, 132, 1);
             z-index: 1;
         }
 
@@ -430,15 +435,15 @@
             height: 17px;
             border-radius: 50%;
             /*border: 2px solid #f5f7fa;*/
-            background: #9c7c38;
-            margin-top: 10px;
+            background: rgba(27, 155, 132, 1);
+            margin-top: 45px;
             z-index: 9999;
         }
 
         .timeline1-content {
             width: 95%;
             padding: 0 15px;
-            color: #666;
+            color: rgba(94, 89, 89, 1);
         }
 
         .timeline1-content img {
@@ -449,10 +454,13 @@
         }
 
         .timeline1-content p {
+            position: relative;
+            font-family: "Noto Sans HK", serif;
             font-size: 16px;
             line-height: 1.5em;
             word-spacing: 1px;
-            color: dimgrey;
+            color: rgba(94, 89, 89, 1);
+            bottom: 10px;
         }
 
         @media screen and (max-width: 768px) {
@@ -502,7 +510,7 @@
             stroke: #0C0C0C;
 
             text-transform: uppercase;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+            text-shadow: 0 4px 4px rgba(0, 0, 0.25);
 
         }
 
@@ -515,7 +523,7 @@
             color: #4E4D4D;
             text-align: center;
             font-size: 21px;
-            font-family: Noto Sans HK;
+            font-family: Noto Sans HK, serif;
             font-weight: 500;
             line-height: 27px;
             letter-spacing: 1px;
@@ -570,7 +578,7 @@
             left: 638px;
             top: 10px;
 
-            font-family: Jua;
+            font-family: Jua, serif;
             font-style: normal;
             font-weight: 400;
             font-size: 35px;
@@ -580,7 +588,7 @@
             stroke: #0C0C0C;
 
             text-transform: uppercase;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+            text-shadow: 0 4px 4px rgba(0, 0, 0.25);
         }
 
 
@@ -608,7 +616,7 @@
             stroke: #0C0C0C;
 
             text-transform: uppercase;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+            text-shadow: 0 4px 4px rgba(0, 0, 0.25);
         }
 
 
@@ -736,27 +744,38 @@
             <div class="timeline1-block timeline1-block-left">
                 <div class="marker"></div>
                 <div class="timeline1-content">
-                    <h3>Tutoring</h3>
-                    <span>2020 - 2022</span>
-                    <p>Grade 10 & Grade 11 Mathematics<br>Grade 10 & 11 Science</p>
+                    <!--<h3></h3>-->
+                    <img alt="" src="assets/images/download%20(1).jpg">
+                    <p>I continued my education at
+                        Prince of Wales College from
+                        grade 8 through Advance Level.
+                        (2012-2019)
+                    </p>
                 </div>
             </div>
 
             <div class="timeline1-block timeline1-block-right">
                 <div class="marker"></div>
                 <div class="timeline1-content">
-                    <h3>Member Of Student Committee</h3>
-                    <span>December 2022 - Now</span>
-                    <p>At Institute Of Software Engineering.</p>
+                    <!--<h3>Member Of Student Committee</h3>-->
+                    <img alt="" src="assets/images/download.png">
+                    <p>I completed a diploma in
+                        sound & music technology.
+                        Music oven Institute.
+                        (2019-2021)
+                    </p>
                 </div>
             </div>
 
             <div class="timeline1-block timeline1-block-left">
                 <div class="marker"></div>
                 <div class="timeline1-content">
-                    <h3>Event Planning</h3>
-                    <!--            <span>Some work experience</span>-->
-                    <p>Innovesta -2023 (IJSE) <br>Techie Blaster Cricket Tournament (IJSE)</p>
+                    <!--<h3>Event Planning</h3>-->
+                    <img alt="" src="assets/images/download%20(1).png">
+                    <p>
+                        I have been studying in ijse
+                        since 2022
+                    </p>
                 </div>
             </div>
         </div>
@@ -959,7 +978,7 @@
                     "transform": "rotate3d(0,1,0," + current + "deg)"
                 });
 
-                if (current == 360) {
+                if (current === 360) {
                     clearInterval(rotateInterval);
                     passedBadge.removeAttr('style').removeClass('spinning');
                 }
