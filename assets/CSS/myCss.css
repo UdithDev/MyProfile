@@ -470,12 +470,12 @@ main > section:nth-child(2) > pre > button {
 
 
 /*Skills section start*/
-main > section:nth-child(3) {
-    position: relative;
-}
+/*main > section:nth-child(3) {*/
+/*    position: relative;*/
+/*}*/
 
 #skills_Head {
-    position: absolute;
+    position: relative;
     width: 164px;
     height: 44px;
     left: 638px;
@@ -551,12 +551,12 @@ main > section:nth-child(3) {
 }
 
 /*portfolio section start*/
-main > section:nth-child(4) {
-    position: relative;
-}
+/*main > section:nth-child(4) {*/
+/*    position: relative;*/
+/*}*/
 
 #portfolio {
-    position: absolute;
+    position: relative;
     width: 164px;
     height: 44px;
     left: 638px;
@@ -576,12 +576,12 @@ main > section:nth-child(4) {
 }
 
 /*Gallery Section Start*/
-main > section:nth-child(5) {
-    position: relative;
-}
+/*main > section:nth-child(5) {*/
+/*    position: relative;*/
+/*}*/
 
 #Gallery {
-    position: absolute;
+    position: relative;
     width: 164px;
     height: 44px;
     left: 638px;
@@ -606,10 +606,11 @@ main > section:nth-child(5) {
 /*Contacts section Start*/
 main > section:nth-child(6) {
     position: relative;
+    /*display: flex;*/
 }
 
 #contacts {
-    position: absolute;
+    position: relative;
     width: 164px;
     height: 44px;
     left: 638px;
@@ -629,7 +630,35 @@ main > section:nth-child(6) {
 }
 
 #contTelImg {
-    position: relative;
+    /*position: relative;*/
+    width: 500px;
+    height: 708px;
+
 }
+
+#contactUsTag {
+    color: #4E4D4D;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
+#contactFrame{
+    border: 5px solid #2F3337;
+    display: inline-block;
+
+
+    position: absolute;
+    left: 550px;
+    top: 325px;
+
+}
+
 
 /*Contacts section End*/
