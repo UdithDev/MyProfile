@@ -650,15 +650,30 @@ main > section:nth-child(6) {
     top: 150px;
 }
 #contactFrame{
-    border: 5px solid #2F3337;
-    display: inline-block;
+    border-top: 5px solid #2F3337;
+    border-left: 5px solid #2F3337;
+
+    /*display: inline-block;*/
 
 
     position: absolute;
     left: 550px;
     top: 325px;
+    padding-right: 744px;
+    padding-bottom: 535px;
 
+}
+#footerHr{
+    position: relative;
+    top: 200px;
 }
 
 
 /*Contacts section End*/
+
+/*Footer section start*/
+footer{
+    position: relative;
+    top: 200px;
+}
+/*Footer section End*/
