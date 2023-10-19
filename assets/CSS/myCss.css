@@ -649,7 +649,8 @@ main > section:nth-child(6) {
     left: 550px;
     top: 150px;
 }
-#contactFrame{
+
+#contactFrame {
     border-top: 5px solid #2F3337;
     border-left: 5px solid #2F3337;
 
@@ -660,20 +661,52 @@ main > section:nth-child(6) {
     left: 550px;
     top: 325px;
     padding-right: 744px;
-    padding-bottom: 535px;
+    padding-bottom: 515px;
+
 
 }
-#footerHr{
+
+#footerHr {
     position: relative;
     top: 200px;
 }
+
+#form {
+    position: relative;
+    left: 100px;
+    top: 80px;
+
+
+}
+/*name form start*/
+#txtFullName{
+    color: #000000;
+    font-family: Jost, sans-serif ;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#name{
+    position: absolute;
+    width: 620px;
+    height: 20px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    padding-top: 10px;
+}
+
+/*name form End*/
 
 
 /*Contacts section End*/
 
 /*Footer section start*/
-footer{
+footer {
     position: relative;
     top: 200px;
 }
+
 /*Footer section End*/
