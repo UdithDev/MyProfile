@@ -606,8 +606,45 @@ main > section:nth-child(2) > pre > button {
 /*Contacts section Start*/
 main > section:nth-child(6) {
     position: relative;
-    /*display: flex;*/
+    background: #F8F4F4;
+    width: 100%;
+    height: 710px;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+#contactMe{
+    position: relative;
+    width: 164px;
+    height: 44px;
+    left: 638px;
+    top: 10px;
+
+    font-family: Jua, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+
+    color: #1778F2;
+    stroke: #0C0C0C;
+
+    text-transform: uppercase;
+    text-shadow: 0 4px 4px rgba(0, 0, 0.25);
+}
+
+main > section:nth-child(6) >section:nth-child(2){
+    /*border: 2px solid red;*/
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 40px;
+}
+
+
 
 
 
@@ -615,91 +652,6 @@ main > section:nth-child(6) {
     position: relative;
     top: 200px;
 }
-
-#form {
-    position: relative;
-    left: 100px;
-    top: 80px;
-}
-
-/*name form start*/
-#txtFullName {
-    color: #000000;
-    font-family: Jost, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-
-    position: absolute;
-}
-
-#name {
-    width: 620px;
-    height: 20px;
-    /*border-top: hidden;*/
-    /*border-left: hidden;*/
-    /*border-right: hidden;*/
-    padding-top: 10px;
-
-    position: absolute;
-    top: 50px;
-}
-
-/*name form End*/
-/*email form start*/
-#txtEmail {
-    color: #000000;
-    font-family: Jost, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-
-    position: absolute;
-    margin-top: 85px;
-
-}
-
-#email {
-    position: absolute;
-    width: 620px;
-    height: 20px;
-    /*border-top: hidden;*/
-    /*border-left: hidden;*/
-    /*border-right: hidden;*/
-    padding-top: 10px;
-    top: 200px;
-
-}
-
-/*email form End*/
-
-/*message form start*/
-#txtMessage {
-    color: #000000;
-    font-family: Jost, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-
-
-    position: absolute;
-    margin-top: 150px;
-}
-
-#message {
-    position: absolute;
-    top: 320px;
-    width: 620px;
-
-}
-
-/*message form end*/
 
 
 /*Contacts section End*/
