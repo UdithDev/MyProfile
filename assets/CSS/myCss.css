@@ -609,62 +609,7 @@ main > section:nth-child(6) {
     /*display: flex;*/
 }
 
-#contacts {
-    position: relative;
-    width: 164px;
-    height: 44px;
-    left: 638px;
-    top: 10px;
 
-    font-family: Jua, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 44px;
-
-    color: #1778F2;
-    stroke: #0C0C0C;
-
-    text-transform: uppercase;
-    text-shadow: 0 4px 4px rgba(0, 0, 0.25);
-}
-
-#contTelImg {
-    /*position: relative;*/
-    width: 500px;
-    height: 708px;
-
-}
-
-#contactUsTag {
-    color: #4E4D4D;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Jost', sans-serif;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-
-    position: absolute;
-    left: 550px;
-    top: 150px;
-}
-
-#contactFrame {
-    border-top: 5px solid #2F3337;
-    border-left: 5px solid #2F3337;
-
-    /*display: inline-block;*/
-
-
-    position: absolute;
-    left: 550px;
-    top: 325px;
-    padding-right: 744px;
-    padding-bottom: 515px;
-
-
-}
 
 #footerHr {
     position: relative;
@@ -673,15 +618,14 @@ main > section:nth-child(6) {
 
 #form {
     position: relative;
-    /*left: 100px;*/
-    /*top: 80px;*/
-
-
+    left: 100px;
+    top: 80px;
 }
+
 /*name form start*/
-#txtFullName{
+#txtFullName {
     color: #000000;
-    font-family: Jost, sans-serif ;
+    font-family: Jost, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -690,12 +634,13 @@ main > section:nth-child(6) {
 
     position: absolute;
 }
-#name{
+
+#name {
     width: 620px;
     height: 20px;
-    border-top: hidden;
-    border-left: hidden;
-    border-right: hidden;
+    /*border-top: hidden;*/
+    /*border-left: hidden;*/
+    /*border-right: hidden;*/
     padding-top: 10px;
 
     position: absolute;
@@ -704,7 +649,7 @@ main > section:nth-child(6) {
 
 /*name form End*/
 /*email form start*/
-#txtEmail{
+#txtEmail {
     color: #000000;
     font-family: Jost, sans-serif;
     font-size: 30px;
@@ -717,23 +662,25 @@ main > section:nth-child(6) {
     margin-top: 85px;
 
 }
-#email{
+
+#email {
     position: absolute;
     width: 620px;
     height: 20px;
-    border-top: hidden;
-    border-left: hidden;
-    border-right: hidden;
+    /*border-top: hidden;*/
+    /*border-left: hidden;*/
+    /*border-right: hidden;*/
     padding-top: 10px;
     top: 200px;
 
 }
+
 /*email form End*/
 
 /*message form start*/
-#txtMessage{
+#txtMessage {
     color: #000000;
-    font-family: Jost,sans-serif;
+    font-family: Jost, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -744,14 +691,15 @@ main > section:nth-child(6) {
     position: absolute;
     margin-top: 150px;
 }
-#message{
-    position: relative ;
-    top: 190px;
-    /*width: 620px;*/
+
+#message {
+    position: absolute;
+    top: 320px;
+    width: 620px;
 
 }
-/*message form end*/
 
+/*message form end*/
 
 
 /*Contacts section End*/
