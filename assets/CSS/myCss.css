@@ -663,11 +663,18 @@ main > section:nth-child(6) >section:nth-child(2)> aside:nth-child(1)>img{
 }
 
 /*Add Form section */
-body > main > section:nth-child(12) > section:nth-child(2) > form:nth-child(2){
+body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2){
     position: absolute;
     right: 50px;
     bottom: 7px;
 }
+/*!*add space in between form sections*!*/
+body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > div {
+    position: relative;
+    padding-bottom: 7px;
+}
+
+
 
 
 
