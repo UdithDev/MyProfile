@@ -649,12 +649,13 @@ main > section:nth-child(6) > section:nth-child(2) {
 
 /*add border style for contact form*/
 main > section:nth-child(6) > section:nth-child(2) > aside:nth-child(1) {
-    border: 1px solid red;
+    border: 1px solid white;
     height: 550px;
     width: 900px;
     position: relative;
     left: 40px;
-    top: 26px;
+    background-color: white;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*contact gif style*/
@@ -671,6 +672,7 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) {
     position: absolute;
     right: 40px;
     bottom: 10px;
+
 }
 
 /*!*add space in between form sections*!*/
@@ -687,6 +689,10 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
     font-size: 15px;
     font-family: Jua, serif;
     font-style: normal;
+    background-color: cornflowerblue;
+    padding: 5px;
+
+    border-radius: 15px;
 }
 
 /*add styles message area*/
@@ -699,6 +705,9 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
 
     font-family: Jua, serif;
     font-style: normal;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 /*send button*/
