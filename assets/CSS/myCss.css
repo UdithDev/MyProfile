@@ -109,7 +109,7 @@ main > section:nth-child(1) > div:nth-child(1) {
 
 
 #my_work {
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK" ;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -655,7 +655,8 @@ main > section:nth-child(6) > section:nth-child(2) > aside:nth-child(1) {
     position: relative;
     left: 40px;
     background-color: white;
-    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+    border-radius: 20px;
 }
 
 /*contact gif style*/
@@ -689,7 +690,7 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
     font-size: 15px;
     font-family: Jua, serif;
     font-style: normal;
-    background-color: cornflowerblue;
+    background-color: cadetblue;
     padding: 5px;
 
     border-radius: 15px;
@@ -701,7 +702,7 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
     height: 150px;
     border: none;
     outline-width: 0;
-    font-size: 15px;
+    font-size: 20px;
 
     font-family: Jua, serif;
     font-style: normal;
@@ -712,11 +713,21 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
 
 /*send button*/
 body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > button:nth-child(5) {
-    border-radius: 50px;
-    width: 40px;
+    border: 2px solid black;
+    border-radius: 60px;
+    width: 160px;
     height: 40px;
     position: relative;
     left: 60px;
+
+    background-color: black;
+
+    color: white;
+    font-family: Jua, serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
 /*get fir left icon*/
@@ -727,13 +738,13 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
 
 /*add hover for send button*/
 body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > button:nth-child(5):hover {
-    width: 50px;
+    width: 70px;
     height: 50px;
 }
 
 #footerHr {
     position: relative;
-    top: 200px;
+    /*top: 200px;*/
 }
 
 
@@ -742,7 +753,7 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
 /*Footer section start*/
 footer {
     position: relative;
-    top: 200px;
+    /*top: 200px;*/
 }
 
 /*Footer section End*/
