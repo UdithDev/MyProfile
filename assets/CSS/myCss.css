@@ -34,7 +34,7 @@ header > h1 {
     height: 35px;
     left: 6.6%;
     right: 86.81%;
-    font-family: 'Noto Sans HK';
+    font-family: 'Noto Sans HK', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -50,6 +50,8 @@ header > h1 {
 
 header > h1:hover {
     cursor: pointer;
+    width: 200px;
+    height: 55px;
 }
 
 main > section:nth-child(1) {
@@ -109,7 +111,7 @@ main > section:nth-child(1) > div:nth-child(1) {
 
 
 #my_work {
-    font-family: "Noto Sans HK" ;
+    font-family: "Noto Sans HK";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -754,6 +756,26 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
 footer {
     position: relative;
     /*top: 200px;*/
+}
+
+/*footer logo style*/
+
+.topLevel {
+    position: absolute;
+    height: 35px;
+    left: 6.6%;
+    right: 86.81%;
+    font-family: 'Noto Sans HK', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+    
 }
 
 /*Footer section End*/
