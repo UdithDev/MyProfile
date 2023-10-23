@@ -768,14 +768,32 @@ footer {
     font-family: 'Noto Sans HK', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
     color: black;
     transform: matrix(1, 0, 0, -1, 0, 0);
 
-    
+    top: 30px;
+    left: 25px;
+
+
+}
+
+.lowLevel {
+    position: relative;
+    color: #000;
+    text-align: center;
+    font-family: 'Noto Sans HK', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 110% */
+    text-transform: uppercase;
+    top: 40px;
+    left: 115px;
+
 }
 
 /*Footer section End*/
