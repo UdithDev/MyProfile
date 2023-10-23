@@ -796,4 +796,17 @@ footer {
 
 }
 
+/*add footer nav section styles*/
+footer > div > nav {
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div > nav > a {
+    
+}
+
 /*Footer section End*/
