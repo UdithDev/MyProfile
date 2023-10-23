@@ -78,7 +78,7 @@ main > section:nth-child(1) > div:nth-child(1) {
     position: absolute;
     left: 80px;
     bottom: 200px;
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     font-style: normal;
 }
 
@@ -111,7 +111,7 @@ main > section:nth-child(1) > div:nth-child(1) {
 
 
 #my_work {
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -164,7 +164,7 @@ main > section:nth-child(2) {
     left: 638px;
     top: 10px;
 
-    font-family: Jua;
+    font-family: Jua, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -173,7 +173,7 @@ main > section:nth-child(2) {
     text-transform: uppercase;
     color: #1778F2;
     stroke: #0C0C0C;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0.25);
 }
 
 .pre {
@@ -194,7 +194,7 @@ main > section:nth-child(2) > pre > b {
     height: 30px;
     left: 230px;
     top: 20px;
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     font-style: oblique;
     font-weight: 400;
     font-size: 20px;
@@ -212,7 +212,7 @@ span.pre_1 {
     left: 25px;
     top: 50px;
 
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -229,7 +229,7 @@ span.pre_2 {
     left: 20px;
     top: 180px;
 
-    font-family: 'Noto Sans HK';
+    font-family: "Noto Sans HK", serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -247,7 +247,7 @@ span.pre_3 {
     left: 40px;
     top: 265px;
 
-    font-family: 'Noto Sans HK';
+    font-family: "Noto Sans HK", serif;
     font-style: normal;
     font-weight: 350;
     font-size: 15px;
@@ -264,7 +264,7 @@ main > section:nth-child(2) > pre > button {
     left: 190px;
     top: 375px;
 
-    font-family: 'Noto Sans HK';
+    font-family: "Noto Sans HK", serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -272,7 +272,7 @@ main > section:nth-child(2) > pre > button {
 
     color: #2F2B2B;
     background: #5B5858;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #DI {
@@ -325,7 +325,7 @@ main > section:nth-child(2) > pre > button {
     top: 633px;
     color: #2F2B2B;
     font-size: 15px;
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     line-height: 25px;
 }
 
@@ -335,7 +335,7 @@ main > section:nth-child(2) > pre > button {
     top: 800px;
     color: #2F2B2B;
     font-size: 15px;
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     line-height: 20px;
 }
 
@@ -345,7 +345,7 @@ main > section:nth-child(2) > pre > button {
     left: 1040px;
     color: #2F2B2B;
     font-size: 15px;
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     line-height: 20px;
 }
 
@@ -354,7 +354,7 @@ main > section:nth-child(2) > pre > button {
     top: 800px;
     left: 1040px;
     font-size: 15px;
-    font-family: "Noto Sans HK";
+    font-family: "Noto Sans HK", serif;
     line-height: 20px;
 }
 
@@ -763,7 +763,6 @@ footer {
 .topLevel {
     position: absolute;
     height: 35px;
-    left: 6.6%;
     right: 86.81%;
     font-family: 'Noto Sans HK', serif;
     font-style: normal;
@@ -798,15 +797,24 @@ footer {
 
 /*add footer nav section styles*/
 footer > div > nav {
-    border: 2px solid red;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+/*add footer nav section text styles*/
 footer > div > nav > a {
-    
+    position: relative;
+    width: 100%;
+    height: 12px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    bottom: 80px;
+    text-align: center;
+
+    text-decoration-line: none;
 }
 
 /*Footer section End*/
