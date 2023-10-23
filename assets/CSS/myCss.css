@@ -744,18 +744,18 @@ body > main > section:nth-child(6) > section:nth-child(2) > form:nth-child(2) > 
     height: 50px;
 }
 
-#footerHr {
-    position: relative;
-    /*top: 200px;*/
-}
-
-
 /*Contacts section End*/
 
 /*Footer section start*/
-footer {
+
+/*add background color footer section*/
+
+body > footer {
     position: relative;
     /*top: 200px;*/
+    width: 100%;
+    height: 450px;
+    background-color: grey;
 }
 
 /*footer logo style*/
@@ -808,13 +808,28 @@ footer > div > nav > a {
     position: relative;
     width: 100%;
     height: 12px;
-    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     bottom: 80px;
     text-align: center;
 
     text-decoration-line: none;
+}
+
+/*add hoover for footer nav*/
+footer > div > nav > a:hover {
+    font-size: 25px;
+}
+
+/*add footer nav section font styles*/
+
+footer > div > nav > a {
+    color: #0C0C0C;
+    font-family: Noto Sans HK, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 /*Footer section End*/
