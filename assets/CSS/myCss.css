@@ -863,4 +863,11 @@ footer > address > div:nth-child(2) > p {
     font-style: italic;
 }
 
+
+/*add footer gmail border*/
+
+footer > mail> div:nth-child(1) {
+    border: 2px solid red;
+}
+
 /*Footer section End*/
