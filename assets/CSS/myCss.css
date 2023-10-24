@@ -755,7 +755,7 @@ body > footer {
     /*top: 200px;*/
     width: 100%;
     height: 450px;
-    background-color: grey;
+    background-color: #102C57;
 }
 
 /*footer logo style*/
@@ -771,7 +771,7 @@ body > footer {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: white;
     transform: matrix(1, 0, 0, -1, 0, 0);
 
     top: 30px;
@@ -782,7 +782,7 @@ body > footer {
 
 .lowLevel {
     position: relative;
-    color: #000;
+    color: white;
     text-align: center;
     font-family: 'Noto Sans HK', serif;
     font-size: 25px;
@@ -802,6 +802,7 @@ footer > div > nav {
     display: flex;
     flex-direction: column;
 }
+
 
 /*add footer nav section text styles*/
 footer > div > nav > a {
@@ -824,12 +825,26 @@ footer > div > nav > a:hover {
 /*add footer nav section font styles*/
 
 footer > div > nav > a {
-    color: #0C0C0C;
+    color: white;
     font-family: Noto Sans HK, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+/*add footer location border*/
+footer > address > div:nth-child(1) {
+    border: 2px solid red;
+    position: absolute;
+    right: 0;
+    bottom: 280px;
+}
+
+/*add footer location image styles*/
+footer > address > div:nth-child(1) > img{
+    width: 30px;
+    height: 30px;
 }
 
 /*Footer section End*/
