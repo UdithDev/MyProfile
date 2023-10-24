@@ -835,16 +835,32 @@ footer > div > nav > a {
 
 /*add footer location border*/
 footer > address > div:nth-child(1) {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     position: absolute;
-    right: 0;
+    right: 250px;
     bottom: 280px;
 }
 
 /*add footer location image styles*/
-footer > address > div:nth-child(1) > img{
+footer > address > div:nth-child(1) > img {
     width: 30px;
     height: 30px;
+}
+
+/*add footer location text border*/
+footer > address > div:nth-child(2) {
+    /*border: 2px solid red;*/
+    position: absolute;
+    right: 70px;
+    bottom: 270px;
+}
+
+/*add footer location text styles*/
+footer > address > div:nth-child(2) > p {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
 }
 
 /*Footer section End*/
