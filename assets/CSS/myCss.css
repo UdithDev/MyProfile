@@ -838,7 +838,7 @@ footer > address > div:nth-child(1) {
     /*border: 2px solid red;*/
     position: absolute;
     right: 250px;
-    bottom: 280px;
+    bottom: 220px;
 }
 
 /*add footer location image styles*/
@@ -852,7 +852,7 @@ footer > address > div:nth-child(2) {
     /*border: 2px solid red;*/
     position: absolute;
     right: 70px;
-    bottom: 270px;
+    bottom: 210px;
 }
 
 /*add footer location text styles*/
