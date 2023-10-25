@@ -868,6 +868,9 @@ footer > address > div:nth-child(2) > p {
 
 footer > mail> div:nth-child(1) {
     border: 2px solid red;
+    position: absolute;
+    right: 70px;
+    bottom: 360px;
 }
 
 /*Footer section End*/
