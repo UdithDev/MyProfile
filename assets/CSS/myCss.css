@@ -869,8 +869,19 @@ footer > address > div:nth-child(2) > p {
 footer > mail> div:nth-child(1) {
     border: 2px solid red;
     position: absolute;
-    right: 70px;
+    right: 180px;
     bottom: 360px;
 }
+
+/*Add footer section lets chat text styles*/
+footer > mail> div:nth-child(1) > h3{
+    color: white;
+    font-family: Candara, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
 
 /*Footer section End*/
