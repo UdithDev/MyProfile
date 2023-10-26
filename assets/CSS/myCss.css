@@ -472,9 +472,15 @@ main > section:nth-child(2) > pre > button {
 
 
 /*Skills section start*/
-/*main > section:nth-child(3) {*/
-/*    position: relative;*/
-/*}*/
+
+/*add background color*/
+main > section:nth-child(3) {
+    background: #fff;
+    width: 100%;
+    height: 710px;
+    position: relative;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 #skills_Head {
     position: relative;
@@ -974,7 +980,7 @@ footer > whatsap > div:nth-child(2) > a:hover {
 
 /*Add copyright label styles*/
 
-footer > copyright> p {
+footer > copyright > p {
     position: absolute;
     right: 500px;
     color: white;
