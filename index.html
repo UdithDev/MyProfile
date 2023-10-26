@@ -18,12 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/myCss.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
 <body>
 <header>
-    <h1 id="home">DEV.</h1>
+    <h1 data-aos="flip-left" id="home">DEV.</h1>
     <nav>
         <ul>
             <li><a href="#home">HOME</a></li>
@@ -70,7 +71,7 @@
     </section>
     <!--About Section-->
     <section>
-        <h1 align="center" id="about">About Me</h1><br>
+        <h1 data-aos="flip-left" align="center" id="about">About Me</h1><br>
         <img align="right" alt="Design Image" id="DI"
              src="assets/images/83b8165c-d311-4313-942a-1e42e76df2f1.webp"
              width="300">
@@ -184,7 +185,7 @@
 
     <!--Skills Section-->
     <section>
-        <h1 align="Center" id="skills_Head">SKILLS</h1><br>
+        <h1 data-aos="flip-left" align="Center" id="skills_Head">SKILLS</h1><br>
 
         <h5 class="SK_1">Language & Databases</h5>
         <div class="container-fluid amg-skills" id="skills">
@@ -267,8 +268,8 @@
     </section>
 
     <!--Gallery Section-->
-    <section>
-        <h1 align="center" id="gallery">GALLERY</h1>
+    <section >
+        <h1 data-aos="flip-left" align="center" id="gallery">GALLERY</h1>
         <div>a</div>
         <div>a</div>
         <div>a</div>
@@ -279,11 +280,11 @@
     <!--Contacts Section-->
     <section>
         <div>
-            <h1 id="contactMe" ALIGN="center">CONTACT ME</h1>
+            <h1 data-aos="flip-left" id="contactMe" ALIGN="center">CONTACT ME</h1>
         </div>
 
 
-        <section>
+        <section data-aos="zoom-in">
             <aside>
                 <img alt="contact gif" src="assets/images/contact/QHTn.gif">
             </aside>
@@ -386,6 +387,10 @@
 </footer>
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 <!--<script src="assets/js/myJs.js"></script>-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
 
