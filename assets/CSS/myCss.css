@@ -795,11 +795,13 @@ body > footer {
     left: 115px;
 
 }
-.lowLevel:hover{
+
+.lowLevel:hover {
     color: aqua;
     font-size: 35px;
 }
-.topLevel:hover{
+
+.topLevel:hover {
     color: aqua;
     font-size: 45px;
 }
@@ -968,6 +970,17 @@ footer > whatsap > div:nth-child(2) > a {
 
 footer > whatsap > div:nth-child(2) > a:hover {
     color: darkseagreen;
+}
+
+/*Add copyright label styles*/
+
+footer > copyright> p {
+    position: absolute;
+    right: 500px;
+    color: white;
+    font-size: 15px;
+    font-family: "Times New Roman", system-ui;
+
 }
 
 
