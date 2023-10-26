@@ -889,7 +889,7 @@ footer > mail > div:nth-child(2) {
     /*border: 2px solid red;*/
     position: absolute;
     right: 280px;
-    bottom: 300px;
+    bottom: 320px;
 
 }
 
@@ -904,13 +904,35 @@ footer > mail > div:nth-child(2) > img {
 footer > mail > div:nth-child(3) > p {
     position: absolute;
     right: 80px;
-    bottom: 290px;
+    bottom: 310px;
 }
 
-footer > mail > div:nth-child(3) > p > a{
+footer > mail > div:nth-child(3) > p > a {
     color: white;
     font-size: 20px;
     font-family: "Times New Roman", system-ui;
+}
+
+/*add footer whatsapp logo styles*/
+footer > whatsap > div:nth-child(1) {
+    position: absolute;
+    right: 280px;
+    bottom: 100px;
+}
+
+footer > whatsap > div:nth-child(1) > img {
+    width: 30px;
+    height: 30px;
+}
+
+footer > whatsap > div:nth-child(2) {
+    position: absolute;
+    right: 150px;
+    bottom: 110px;
+}
+
+footer > whatsap > div:nth-child(2) > a {
+    color: whitesmoke;
 }
 
 
