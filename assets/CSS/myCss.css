@@ -696,7 +696,7 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
 /*add div for Git hyper image for  safari-Management-System*/
 
 main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(3) {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 60px;
     height: 60px;
     position: relative;
@@ -740,6 +740,15 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(2) > div:nth-
     margin: auto;
 }
 
+/*add div for add git hyper image for  Hostel Manage System project*/
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
+    border: 1px solid red;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 200px;
+    top: 50px;
+}
 
 /*portfolio section  end*/
 /*Gallery Section Start*/
