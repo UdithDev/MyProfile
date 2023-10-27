@@ -876,6 +876,24 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
     text-decoration: none;
 }
 
+/*add styles to view all button next icon*/
+#nextIcon{
+    position: relative;
+    left: 16px;
+}
+
+/*add styles view all text*/
+#viewAllBtn{
+    position: absolute;
+    left: 11px;
+    bottom: 6px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 
 /*portfolio section  end*/
