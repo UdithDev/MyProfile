@@ -767,14 +767,49 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(2) > div:nth-
 
 
 /*add div for chat application project*/
-main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) > div:nth-child(1){
-    border: 1px solid red;
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) > div:nth-child(1) {
+    /*border: 1px solid red;*/
     width: 100%;
     height: 300px;
     position: relative;
 }
 
+/*chat application project image*/
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) > div:nth-child(1) > img {
+    width: 342px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+/*add div for git hyper image into chat application project*/
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) > div:nth-child(3) {
+    /*border: 1px solid red;*/
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) > div:nth-child(3) > a > img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+}
 
 
 /*portfolio section  end*/
