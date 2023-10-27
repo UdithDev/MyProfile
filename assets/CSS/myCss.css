@@ -536,7 +536,7 @@ main > section:nth-child(3) > section {
 }
 
 /*add grid box for Framework and tools*/
-#frameworkTools{
+#frameworkTools {
     /*border: 2px solid red;*/
     position: relative;
     bottom: 80px;
@@ -587,9 +587,13 @@ main > section:nth-child(3) > section {
 }
 
 /*portfolio section start*/
-/*main > section:nth-child(4) {*/
-/*    position: relative;*/
-/*}*/
+main > section:nth-child(4) {
+    position: relative;
+    background: #F8F4F4;
+    width: 100%;
+    /*height: 710px;*/
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 #portfolio {
     position: relative;
@@ -610,6 +614,29 @@ main > section:nth-child(3) > section {
     text-transform: uppercase;
     text-shadow: 0 4px 4px rgba(0, 0, 0.25);
 }
+
+/*add myProjects header text styles */
+
+#myProjects {
+    /*border: 2px solid red;*/
+    font-family: Noto Sans HK, sans-serif;
+    font-style: normal;
+
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    top: 10px;
+    left: 20px;
+    color: #4E4D4D;
+
+    text-transform: capitalize;
+    line-height: 27px; /* 110% */
+    letter-spacing: 1px;
+
+}
+
+/*portfolio section  end*/
 
 /*Gallery Section Start*/
 /*main > section:nth-child(5) {*/
