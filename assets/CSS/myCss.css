@@ -626,15 +626,26 @@ main > section:nth-child(4) {
     font-size: 25px;
     font-weight: 700;
     display: inline-block;
-    top: 10px;
+    top: 20px;
     left: 20px;
     color: #4E4D4D;
 
     text-transform: capitalize;
     line-height: 27px; /* 110% */
     letter-spacing: 1px;
-
 }
+
+/*add flex box into my Projects*/
+
+main > section:nth-child(4) > section:nth-child(4){
+    border: 1px solid green;
+    display: flex;
+    position: relative;
+    top: 86px;
+    width: 100%;
+    height: 550px;
+}
+
 
 /*portfolio section  end*/
 
