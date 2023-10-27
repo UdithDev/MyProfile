@@ -663,7 +663,7 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(2) {
 }
 
 /*add all projects names p tags styles*/
-main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(2) > p{
+main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(2) > p {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Nunito', sans-serif;
     color: #3900ff;
@@ -672,7 +672,7 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(2) > p{
 }
 
 /*add div for Safari-Management-System project image*/
-main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1){
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) {
     /*border:  1px solid red;*/
     position: relative;
     width: 100%;
@@ -681,7 +681,7 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
 
 /*safari management system image styles */
 
-main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img{
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img {
     width: 373px;
     height: 260px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -695,7 +695,7 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
 
 /*add div for Git hyper image for  safari-Management-System*/
 
-main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(3){
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(3) {
     border: 1px solid red;
     width: 60px;
     height: 60px;
@@ -705,7 +705,7 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
 }
 
 /*/*add Git hyper image into  safari-Management-System */
-main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(3) >a > img{
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(3) > a > img {
     width: 50px;
     height: 50px;
     box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -718,16 +718,34 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
     margin: auto;
 }
 
+/*add div for add Hostel Manage System project image*/
+
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(2) > div:nth-child(1) {
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+/*Hostel Manage System project image*/
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(2) > div:nth-child(1) > img {
+    width: 370px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 
-
-
-
-    /*portfolio section  end*/
-    /*Gallery Section Start*/
-    /*main > section:nth-child(5) {*/
-    /*    position: relative;*/
-    /*}*/
+/*portfolio section  end*/
+/*Gallery Section Start*/
+/*main > section:nth-child(5) {*/
+/*    position: relative;*/
+/*}*/
 #Gallery {
     position: relative;
     width: 164px;
