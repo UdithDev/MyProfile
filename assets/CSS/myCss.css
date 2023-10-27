@@ -819,6 +819,29 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
     border-radius: 60px;
 }
 
+/*view all button*/
+#viewAllBtn{
+    border: 2px solid #000000;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /*border-radius: 100px;*/
+
+    width: 120px;
+    height: 40px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 98px;
+    margin: auto;
+
+    background: #000;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
 /*portfolio section  end*/
 /*Gallery Section Start*/
 /*main > section:nth-child(5) {*/
