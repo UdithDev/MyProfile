@@ -841,6 +841,42 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
     cursor: pointer;
 }
 
+/*add view all button after and  before effect*/
+#viewAllBtn::after,#viewAllBtn::before{
+    content: '';
+    position: absolute;
+    opacity: 0.3;
+    background: #000;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+/*add hover effect*/
+
+#viewAllBtn:hover{
+    transform: translate(-12px, -12px);
+}
+/*add hover after*/
+#viewAllBtn:hover::after {
+    transform: translate(6px, 6px);
+}
+
+/*add hover before*/
+#viewAllBtn:hover::before {
+    transform: translate(12px, 12px);
+}
+
+/*remove underline*/
+#viewAllBtn{
+    text-decoration: none;
+}
+
+
 
 /*portfolio section  end*/
 /*Gallery Section Start*/
