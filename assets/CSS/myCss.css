@@ -637,7 +637,7 @@ main > section:nth-child(4) {
 
 /*add flex box into my Projects*/
 
-main > section:nth-child(4) > section:nth-child(4){
+main > section:nth-child(4) > section:nth-child(4) {
     border: 1px solid green;
     display: flex;
     position: relative;
@@ -648,29 +648,43 @@ main > section:nth-child(4) > section:nth-child(4){
 
 /*div projects boxes*/
 
-main > section:nth-child(4) > section:nth-child(4)> div{
+main > section:nth-child(4) > section:nth-child(4) > div {
     border: 1px solid orange;
     width: 100%;
     height: 550px;
 }
 
 /*add div for all projects p tags*/
-main > section:nth-child(4) > section:nth-child(4)> div > div:nth-child(2){
-    border: 1px solid red;
+main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(2) {
+    /*border: 1px solid red;*/
     position: relative;
     width: 100%;
     text-align: center;
 }
 
+/*add all projects names p tags styles*/
+main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(2) > p{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Nunito', sans-serif;
+    color: #3900ff;
+    font-size: 22px;
+    width: 100%;
+}
+
+/*add div for Hostel-Management-System project image*/
+main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1){
+    border:  1px solid red;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
 
 
-/*portfolio section  end*/
-
-/*Gallery Section Start*/
-/*main > section:nth-child(5) {*/
-/*    position: relative;*/
-/*}*/
-
+    /*portfolio section  end*/
+    /*Gallery Section Start*/
+    /*main > section:nth-child(5) {*/
+    /*    position: relative;*/
+    /*}*/
 #Gallery {
     position: relative;
     width: 164px;
