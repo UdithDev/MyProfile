@@ -913,6 +913,18 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
     letter-spacing: 1px;
 }
 
+/*add flex for assigment segment*/
+main > section:nth-child(4) > section:nth-child(6){
+    border: 1px solid green;
+    display: flex;
+    position: relative;
+    top: 100px;
+    height: 600px;
+    width: 100%;
+}
+
+
+
 
 /*portfolio section  end*/
 /*Gallery Section Start*/
