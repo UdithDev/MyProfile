@@ -820,7 +820,7 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
 }
 
 /*view all button*/
-#viewAllBtn{
+#viewAllBtn {
     border: 2px solid #000000;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     /*border-radius: 100px;*/
@@ -842,7 +842,7 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
 }
 
 /*add view all button after and  before effect*/
-#viewAllBtn::after,#viewAllBtn::before{
+#viewAllBtn::after, #viewAllBtn::before {
     content: '';
     position: absolute;
     opacity: 0.3;
@@ -858,9 +858,10 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
 
 /*add hover effect*/
 
-#viewAllBtn:hover{
+#viewAllBtn:hover {
     transform: translate(-12px, -12px);
 }
+
 /*add hover after*/
 #viewAllBtn:hover::after {
     transform: translate(6px, 6px);
@@ -872,18 +873,18 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
 }
 
 /*remove underline*/
-#viewAllBtn{
+#viewAllBtn {
     text-decoration: none;
 }
 
 /*add styles to view all button next icon*/
-#nextIcon{
+#nextIcon {
     position: relative;
     left: 16px;
 }
 
 /*add styles view all text*/
-#viewAllBtn{
+#viewAllBtn {
     position: absolute;
     left: 11px;
     bottom: 6px;
@@ -894,6 +895,23 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/*add assigments header text styles*/
+#assigments {
+    font-family: Noto Sans HK, sans-serif;
+    font-style: normal;
+
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    top: 650px;
+    left: 20px;
+    color: #4E4D4D;
+
+    text-transform: capitalize;
+    line-height: 27px; /* 110% */
+    letter-spacing: 1px;
+}
 
 
 /*portfolio section  end*/
