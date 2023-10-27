@@ -693,7 +693,7 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
     margin: auto;
 }
 
-/*add div for Git hyper image for  Hostel-Management-System*/
+/*add div for Git hyper image for  safari-Management-System*/
 
 main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(3){
     border: 1px solid red;
@@ -703,6 +703,10 @@ main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-
     left: 200px;
     top: 50px;
 }
+
+/*/*add Git hyper image into  safari-Management-System */
+
+
 
 
 
