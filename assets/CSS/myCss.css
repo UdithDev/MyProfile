@@ -654,6 +654,15 @@ main > section:nth-child(4) > section:nth-child(4)> div{
     height: 550px;
 }
 
+/*add div for all projects p tags*/
+main > section:nth-child(4) > section:nth-child(4)> div > div:nth-child(2){
+    border: 1px solid red;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
 
 /*portfolio section  end*/
 
