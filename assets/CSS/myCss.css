@@ -946,7 +946,21 @@ main > section:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-
     position: relative;
 }
 
+
+/*CSS Basics image*/
+main > section:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2)>img {
+    width: 445px;
+    height: 307px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px
 }
+
 
 
 /*portfolio section  end*/
