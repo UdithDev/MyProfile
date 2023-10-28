@@ -948,7 +948,7 @@ main > section:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-
 
 
 /*CSS Basics image*/
-main > section:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2)>img {
+main > section:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2) > img {
     width: 445px;
     height: 307px;
     position: absolute;
@@ -962,7 +962,7 @@ main > section:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-
 }
 
 /*add div for git image into css basic image*/
-main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3){
+main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3) {
     /*border: 1px solid red;*/
     width: 60px;
     height: 60px;
@@ -972,7 +972,7 @@ main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3){
 }
 
 /*add git hub image by button*/
-main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3) > a> img{
+main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3) > a > img {
     width: 50px;
     height: 50px;
     position: absolute;
@@ -986,13 +986,48 @@ main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3) > a>
 }
 
 /*add div for pos system*/
-main > section:nth-child(4) > section:nth-child(6) > div:nth-child(2) > div:nth-child(2){
+main > section:nth-child(4) > section:nth-child(6) > div:nth-child(2) > div:nth-child(2) {
     /*border: 1px solid red;*/
     width: 100%;
     height: 360px;
     position: relative;
 }
 
+/*pos system image*/
+main > section:nth-child(4) > section:nth-child(6) > div:nth-child(2) > div:nth-child(2) > img {
+    width: 411px;
+    height: 314px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px
+}
+
+/*add div for js image*/
+main > section:nth-child(4) > section:nth-child(6) > div:nth-child(3) > div:nth-child(2) {
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 360px;
+    position: relative;
+}
+
+/*js image*/
+main > section:nth-child(4) > section:nth-child(6) > div:nth-child(3) > div:nth-child(2) > img {
+    width: 383px;
+    height: 314px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px
+}
 
 
 /*portfolio section  end*/
