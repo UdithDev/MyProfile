@@ -1,3 +1,13 @@
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0022ff;
+}
+
 header {
     /*    border: 1px solid black;*/
     position: relative;
