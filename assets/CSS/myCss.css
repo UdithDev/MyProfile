@@ -1190,12 +1190,39 @@ main > section:nth-child(5) > article:nth-child(2) > div:nth-child(3) > div:nth-
 
 
 /*add div for image  Mobile Development*/
-main > section:nth-child(5) > article:nth-child(2) > div:nth-child(3) > div:nth-child(2){
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(3) > div:nth-child(2) {
     /*border: 1px solid red;*/
     width: 100%;
     height: 300px;
     position: relative;
 }
+
+/*add image into Mobile Development*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(3) > div:nth-child(2) > img {
+    height: 228px;
+    width: 228px;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*description styles Mobile Development*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(3) > pre {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: 20px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: #930A09;
+    left: -39px;
+}
+
 
 #serviceHead {
     position: relative;
