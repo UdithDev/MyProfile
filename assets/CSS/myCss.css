@@ -915,7 +915,7 @@ main > section:nth-child(4) > section:nth-child(4) > div > div:nth-child(3):hove
 
 /*add flex for assigment segment*/
 main > section:nth-child(4) > section:nth-child(6) {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     display: flex;
     position: relative;
     top: 100px;
@@ -925,7 +925,7 @@ main > section:nth-child(4) > section:nth-child(6) {
 
 /*dic assignments box*/
 main > section:nth-child(4) > section:nth-child(6) > div {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     width: 100%;
     text-align: center;
 }
@@ -968,7 +968,7 @@ main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3) {
     height: 60px;
     position: relative;
     left: 200px;
-    top: 50px;
+    top: 70px;
 }
 
 /*add git hub image by button*/
@@ -1027,6 +1027,14 @@ main > section:nth-child(4) > section:nth-child(6) > div:nth-child(3) > div:nth-
     margin: auto;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 60px
+}
+
+/*add hover for git button*/
+main > section:nth-child(4) > section:nth-child(6) > div > div:nth-child(3) > a > img:hover{
+    width: 61px;
+    height: 61px;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    border-radius: 60px;
 }
 
 
