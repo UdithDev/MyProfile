@@ -121,7 +121,7 @@ main > section:nth-child(1) > div:nth-child(1) {
 
 /*add border for social nav*/
 main > section:nth-child(1) > nav:nth-child(2) {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 570px;
     height: 90px;
     position: relative;
@@ -133,13 +133,13 @@ main > section:nth-child(1) > nav:nth-child(2) {
 
 /*add all social divs*/
 main > section:nth-child(1) > nav:nth-child(2) > div {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     position: relative;
     width: 100%;
     /*height: 90px;*/
 }
 
-main > section:nth-child(1) > nav:nth-child(2) > div > a{
+main > section:nth-child(1) > nav:nth-child(2) > div > a {
     position: absolute;
     left: 0;
     top: 20px;
@@ -148,7 +148,7 @@ main > section:nth-child(1) > nav:nth-child(2) > div > a{
 }
 
 /*social icon add*/
-main > section:nth-child(1) > nav:nth-child(2) > div > a > i{
+main > section:nth-child(1) > nav:nth-child(2) > div > a > i {
     /*position: absolute;*/
     font-size: 50px;
     /*left: 20px;*/
@@ -157,35 +157,47 @@ main > section:nth-child(1) > nav:nth-child(2) > div > a > i{
     color: white;
     transition: 0.5s;
 }
+
 /*add hover color linkedin*/
-main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(1)>a>i:hover{
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(1) > a > i:hover {
     font-size: 51px;
     color: #007bb6;
     transition: 0.5s;
 }
 
-#my_work {
-    font-family: "Noto Sans HK", serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 28px;
-    color: black;
-
-    text-align: center;
-
-    background: rgba(195, 208, 194, 0.79);
-    background-blend-mode: color;
-    border-radius: 10px;
-    padding: 10px;
-
-    position: absolute;
-    top: 600px;
-    left: 100px;
+/*add hover color github*/
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(2) > a > i:hover {
+    font-size: 51px;
+    color: #007bb6;
+    transition: 0.5s;
 }
 
-#my_work:hover {
-    cursor: pointer;
+/*add hover color twitter*/
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(3) > a > i:hover {
+    font-size: 51px;
+    color: #00B6F1;
+    transition: 0.5s;
+}
+
+/*add hover color facebook*/
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(4) > a > i:hover {
+    font-size: 51px;
+    color: #3B5998;
+    transition: 0.5s;
+}
+
+/*add hover color instagram*/
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(5) > a > i:hover {
+    font-size: 51px;
+    color: #EA1DBD;
+    transition: 0.5s;
+}
+
+/*add hover color medium*/
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(6) > a > i:hover {
+    font-size: 51px;
+    color: green;
+    transition: 0.5s;
 }
 
 /*Home Description End*/
@@ -200,7 +212,7 @@ main > section:nth-child(1) > div:nth-child(3) {
     display: inline-block;
     position: absolute;
     right: 20px;
-    top: 50px;
+    top: 250px;
 }
 
 /*added profile picture into profile section*/
