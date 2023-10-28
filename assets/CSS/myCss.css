@@ -68,7 +68,7 @@ main > section:nth-child(1) {
     /*background-color: red;*/
     /*background-image: url("assets/images/homebackground.jpg");*/
     background-color: black;
-    height: 900px;
+    height: 990px;
     position: relative;
     display: flex;
 }
@@ -125,8 +125,8 @@ main > section:nth-child(1) > nav:nth-child(2) {
     width: 570px;
     height: 90px;
     position: relative;
-    left: 20px;
-    top: 320px;
+    left: 40px;
+    top: 780px;
     display: flex;
     justify-content: space-around;
 }
@@ -139,6 +139,30 @@ main > section:nth-child(1) > nav:nth-child(2) > div {
     /*height: 90px;*/
 }
 
+main > section:nth-child(1) > nav:nth-child(2) > div > a{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    right: 0;
+    text-align: center;
+}
+
+/*social icon add*/
+main > section:nth-child(1) > nav:nth-child(2) > div > a > i{
+    /*position: absolute;*/
+    font-size: 50px;
+    /*left: 20px;*/
+    /*top: 21px;*/
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+/*add hover color linkedin*/
+main > section:nth-child(1) > nav:nth-child(2) > div:nth-child(1)>a>i:hover{
+    font-size: 51px;
+    color: #007bb6;
+    transition: 0.5s;
+}
 
 #my_work {
     font-family: "Noto Sans HK", serif;
