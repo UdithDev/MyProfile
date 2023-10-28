@@ -1122,6 +1122,55 @@ main > section:nth-child(5) > article:nth-child(2) > div:nth-child(1) > pre {
 
 }
 
+/*add div for Software Development h3 text*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+    /*border: 1px solid red;*/
+    width: 100%;
+    text-align: center;
+}
+
+/*add style Software Development h3 text*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h3 {
+    position: relative;
+    font-size: 20px;
+    color: #0057FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Nunito', sans-serif;
+}
+
+/*add div for image into Software Development*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    position: relative;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 300px;
+}
+
+/*add image into Software Development*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(2) > div:nth-child(2) > img {
+    height: 228px;
+    width: 228px;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*description styles Software Development*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(2) > pre {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: 20px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: #0057FF;
+    left: -39px;
+}
 
 #serviceHead {
     position: relative;
