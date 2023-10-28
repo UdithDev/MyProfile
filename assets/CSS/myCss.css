@@ -1109,6 +1109,19 @@ main > section:nth-child(5) > article:nth-child(2) > div:nth-child(1) > div:nth-
     margin: auto;
 }
 
+/*description styles UX/UI*/
+main > section:nth-child(5) > article:nth-child(2) > div:nth-child(1) > pre {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: 20px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: #EA1DBD;
+    left: -20px;
+
+}
+
 
 #serviceHead {
     position: relative;
